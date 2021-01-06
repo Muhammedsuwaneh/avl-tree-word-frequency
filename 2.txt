@@ -1,0 +1,3 @@
+text file is a file that only contains 
+text and has no special 
+such as text, italic text, images, etc.

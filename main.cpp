@@ -7,7 +7,7 @@ using namespace std;
 extern vector<WordFreq> GetMostFrequentKWords(string filename, int k);
 
 int main() {
-	vector<WordFreq> result = GetMostFrequentKWords("1.txt", 7);
+	vector<WordFreq> result = GetMostFrequentKWords("2.txt", 7);
 
 	printf("+----------------------+---------+\n");
 	printf("|          WORD        |   FREQ  |\n");

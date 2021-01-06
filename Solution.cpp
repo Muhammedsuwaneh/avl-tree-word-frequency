@@ -32,7 +32,7 @@ using namespace std;;
 struct AVLNode {
 
 	AVLNode* left, *right;
-	int height;
+	int height = 0;
 	WordFreq WordNode;
 	AVLNode(WordFreq WordNode) : WordNode(WordNode), left(NULL), right(NULL) {};
 };
